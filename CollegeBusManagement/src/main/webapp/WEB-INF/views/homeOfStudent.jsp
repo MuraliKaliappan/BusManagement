@@ -7,10 +7,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<link rel="stylesheet" href="resources\bootstrap\css\bootstrap.css">
-		<script src="C:\Users\lee\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\bootstrap.js"></script>
-		<script src="C:\Users\lee\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
-
+		<link rel="stylesheet" href="resources\bootstrap-3.3.7-dist\css\bootstrap.css">
+		<link rel="stylesheet" href="resources\bootstrap-3.3.7-dist\css\bootstrap.min.css">
+		
+		<script src="resources\jquery-3.3.1\jquery.js"></script>
+		
+		<script src="resources\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
+		
 		<title>
 			Student's Dashboard
 		</title>
@@ -19,43 +22,75 @@
 	
 	
 	<body>
+	
+		<div class="page-header"> <center>  <h3>  <strong> Student's Dashboard </strong>  </h3> </center>  </div>
+		
 		
 		<div class="container-fluid">
 			
-			<ul class="nav nav-tabs">
 			
-				<li class="active"> <a href="#additional" data-toggle="tab"> Additional Details </a> </li>
+			<ul class="nav nav-tabs ">
+			
+				<li class="active"> <a data-toggle="tab" href="#profile"> <i class="glyphicon glyphicon-user"> </i> </a> </li>
 				
-				<li> <a href="#busTrip" data-toggle="tab"> Bus Trip Selection </a> </li>
+				<li> <a data-toggle="tab" href="#additional"> Additional Details </a> </li>
 				
-				<li> <a href="#update" data-toggle="tab"> Update Details </a> </li>
+				<li> <a data-toggle="tab" href="#busTrip"> Bus Trip Selection </a> </li>
 				
-				<li> <a href="#change" data-toggle="tab"> Change Password </a> </li>
+				<li> <a data-toggle="tab" href="#update" > Update Details </a> </li>
 				
-				<li> <a href="#payment" data-toggle="tab"> Payment Slip </a> </li>
+				<li> <a data-toggle="tab" href="#change" > Change Password </a> </li>
 				
-				<li> <a href="#busId" data-toggle="tab"> Bus ID </a> </li>
+				<li> <a data-toggle="tab" href="#payment" > Payment Slip </a> </li>
+				
+				<li> <a data-toggle="tab" href="#busId" > Bus ID </a> </li>
+				
+				<li> <a data-toggle="tab" href="#notification"> <i class="glyphicon glyphicon-bell"> </i> </a> </li>
+				
+				<li class="navbar-right"> <a data-toggle="tab" href="#logout"> <i class="glyphicon glyphicon-off"> </i> </a> </li>
 
-			</ul>	
+			</ul>
+			
+				
+			
+			
 
 			<div class="tab-content">
 			
-				<div id="additional" class="tab-pane fade" src="D:\gauLee\AdditionalDetails.html"> </div>
+				<div id="profile" class="tab-pane fade in active"> Hi , Welcome User </div>
 				
-				<div id="busTrip" class="tab-pane fade">  </div>
+				<div id="additional" class="tab-pane fade "> <iframe src="College Bus Management\src\main\webapp\WEB-INF\views\additionalDetails.jsp" width="100%" height="500" style="border:none"> </iframe> </div>
 				
-				<div id="update" class="tab-pane fade">  </div>
+				<div id="busTrip" class="tab-pane fade"> <iframe src="College Bus Management\src\main\webapp\WEB-INF\views\tripSelection.jsp" width="100%" height="500" style="border:none"> </iframe>  </div>
 				
-				<div id="change" class="tab-pane fade">  </div>
+				<div id="update" class="tab-pane fade"> <iframe src="College Bus Management\src\main\webapp\WEB-INF\views\update.jsp" width="100%" height="500" style="border:none"> </iframe>  </div>
+				 
+				<div id="change" class="tab-pane fade"> <iframe src="College Bus Management\src\main\webapp\WEB-INF\views\passwordChange.jsp" width="100%" height="500" style="border:none"> </iframe>  </div>
 				
-				<div id="payment" class="tab-pane fade">  </div>
+				<div id="payment" class="tab-pane fade"> <iframe src="College Bus Management\src\main\webapp\WEB-INF\views\challan.jsp" width="100%" height="500" style="border:none"> </iframe>  </div>
 				
-				<div id="busId" class="tab-pane fade">  </div>
+				<div id="busId" class="tab-pane fade"> <iframe src="College Bus Management\src\main\webapp\WEB-INF\views\id.jsp" width="100%" height="500" style="border:none"> </iframe>  </div>
+				
+				<div id="notification" class="tab-pane fade">  notification </div>
+				
+				<div id="logout" class="tab-pane fade">  logout</div>
 				
 			</div>
 			
 			
+			
 		</div>
+		
+		<script>
+			
+			$(document).ready(function(){
+			
+				alert("hai");
+			});
+			
+		</script>
+			
+			
 		
 	</body>
 	

@@ -7,7 +7,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<link rel="stylesheet" href="resources\bootstrap\css\bootstrap.css">
+		<link rel="stylesheet" href="resources\bootstrap-3.3.7-dist\css\bootstrap.css">
 		
 		<title>
 			Update Form
@@ -18,9 +18,9 @@
 	
 	<body>
 	
-		<div class="page-header"> <h3> <center> <strong> Update the Student's Details </strong> </center> </h3> </div>
-	
 		<div class="container-fluid">
+		
+			<h3>  <strong> Update the Student's Details </strong> </h3>
 			
 			<div class="row">
 			

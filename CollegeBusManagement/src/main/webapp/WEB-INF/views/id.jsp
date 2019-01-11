@@ -7,10 +7,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<link rel="stylesheet" href="resources\bootstrap\css\bootstrap.css">
-		
-		<script src="C:\Users\lee\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\bootstrap.js"></script>
-		<script src="C:\Users\lee\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
+		<link rel="stylesheet" href="resources\bootstrap-3.3.7-dist\css\bootstrap.css">
+		<script src="resources\jquery-3.3.1\jquery.js"></script>
+		<script src="resources\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
 		
 		
 		<title>
@@ -23,6 +22,8 @@
 	<body>
 		
 		<div class="container-fluid">
+		
+		<h3> <strong> Bus ID </strong> </h3>
 			
 			<div class="row">
 			
@@ -32,7 +33,7 @@
 			
 						<div class="page-header">
 						
-							<fieldset>	<legend align="center"> <strong> Bus ID </strong> </legend>
+							<fieldset>
 							
 								<div class="row form-group "> 
 									<div class="col-md-offset-5 col-md-5"> 

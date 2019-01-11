@@ -8,7 +8,7 @@
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<link rel="stylesheet" href="resources\bootstrap\css\bootstrap.css">
+		<link rel="stylesheet" href="resources\bootstrap-3.3.7-dist\css\bootstrap.css">
 		
 		
 		<title>
@@ -20,9 +20,11 @@
 	
 	<body>
 	
-		<div class="page-header"> <center> <h3>  <strong> Student's Registration </strong>  </h3> </center> </div>
+		<!--  div class="page-header"> <center> <h3>  <strong> Student's  </strong>  </h3> </center> </div-->
 	
 		<div class="container-fluid">
+		
+			 <h3>  <strong> Student's Registration</strong>  </h3> 
 			
 			<div class="row">
 			
