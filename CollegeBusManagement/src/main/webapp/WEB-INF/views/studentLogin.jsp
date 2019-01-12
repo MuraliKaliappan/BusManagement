@@ -20,7 +20,7 @@
 	
 		<div class="container">
 			
-			<form class="form-inline" role="form">
+			<form class="form-inline" role="form" action="studentLogin" method="post">
 				
 				<div class="form-group">
 							 
@@ -28,7 +28,7 @@
 									
 						<div class="rows">
 							
-							<br> <br> <br> <br> <br> <br> <br>
+							
 							<div class="panel-group ">
 								
 								<div class="row"> <div class="col-md-offset-3 col-md-5"> 
@@ -44,7 +44,7 @@
 											<div class="col-md-offset-3"> 
 												<div class="input-group"> 
 													<span class="input-group-addon"><i class="glyphicon glyphicon-user"> </i></span>
-													<input type="email" placeholder="Username or E-Mail ID" class="form-control" id="username" required> 
+													<input type="email" placeholder="Username or E-Mail ID" class="form-control" id="studentName" required> 
 												</div>
 											</div>
 										</div>
@@ -56,7 +56,7 @@
 											<div class="col-md-offset-3"> 
 												<div class="input-group">
 													<span class="input-group-addon"> <i class="glyphicon glyphicon-lock"> </i> </span> 
-													<input type="password" class="form-control" id="pwd" placeholder="Password" required> 
+													<input type="password" class="form-control" id="studentPassword" placeholder="Password" required> 
 												</div>
 											</div>
 										</div>

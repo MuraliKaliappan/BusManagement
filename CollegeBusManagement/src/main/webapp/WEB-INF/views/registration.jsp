@@ -64,11 +64,11 @@
 							</div>
 
 							<div class="row form-group">
-								<div class="col-md-3"> <label class="control-label" for="year"> Joining Month & Year : </label> </div>
+								<div class="col-md-3"> <label class="control-label" for="joiningYear"> Joining Month & Year : </label> </div>
 								<div class="col-md-8"> 
 									<div class="input-group">
 										<span class="input-group-addon"> <i class="glyphicon glyphicon-bookmark"> </i> </span>
-										<input type="month" placeholder="Joining Year" class="form-control" id="year" required> 
+										<input type="month" placeholder="Joining Year" class="form-control" id="joiningYear" required> 
 										
 									</div>
 								</div>		
@@ -97,7 +97,7 @@
 							</div>
 
 							<div class="row form-group">
-								<div class="col-md-3"> <label class="control-label" for="pwd"> Confirm Password : </label> </div>
+								<div class="col-md-3"> <label class="control-label" for="confirmPwd"> Confirm Password : </label> </div>
 								<div class="col-md-8"> 
 									<div class="input-group">
 										<span class="input-group-addon"> <i class="glyphicon glyphicon-link"> </i> </span>

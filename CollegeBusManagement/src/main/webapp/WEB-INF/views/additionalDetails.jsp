@@ -30,44 +30,44 @@
 						<div class="page-header" >	
 						
 							<div class="row form-group">
-								<div class="col-md-3"> <label class="control-label" for="dob"> Date Of Birth : </label> </div>
+								<div class="col-md-3"> <label class="control-label" for="dateOfBirth"> Date Of Birth : </label> </div>
 								<div class="col-md-8"> 
 									<div class="input-group">
 										<span class="input-group-addon"> <i class="glyphicon glyphicon-calendar"> </i> </span>
-										<input type="date" placeholder="Date of birth" class="form-control" id="dob" required> 
+										<input type="date" placeholder="Date of birth" class="form-control" id="dateOfBirth" required> 
 										
 									</div>
 								</div>
 							</div>
 						
 							<div class="row form-group">
-								<div class="col-md-3"> <label class="control-label" for="mob"> Contact Number : </label> </div>
+								<div class="col-md-3"> <label class="control-label" for="mobileNumber"> Contact Number : </label> </div>
 								<div class="col-md-8"> 
 									<div class="input-group">
 										<span class="input-group-addon"> <i class="glyphicon glyphicon-earphone"> </i> </span>
-										<input type="number" placeholder="Mobile Number" class="form-control" id="mob" max="9999999999" required> 
+										<input type="number" placeholder="Mobile Number" class="form-control" id="mobileNumber" max="9999999999" required> 
 										
 									</div>
 								</div>
 							</div>	
 									
 							<div class="row form-group">
-								<div class="col-md-3"> <label class="control-label" for="emergency"> Emergency Contact : </label> </div>
+								<div class="col-md-3"> <label class="control-label" for="emergencyNumber"> Emergency Contact : </label> </div>
 								<div class="col-md-8"> 
 									<div class="input-group">
 										<span class="input-group-addon"> <i class="glyphicon glyphicon-phone"> </i> </span>
-										<input type="number" placeholder="Emergency Number" class="form-control" id="emergency" max="9999999999" required> 
+										<input type="number" placeholder="Emergency Number" class="form-control" id="emergencyNumber" max="9999999999" required> 
 										
 									</div>
 								</div>
 							</div>	
 
 							<div class="row form-group">
-								<div class="col-md-3"> <label class="control-label" for="blood"> Blood Group : </label> </div>
+								<div class="col-md-3"> <label class="control-label" for="bloodGroup"> Blood Group : </label> </div>
 								<div class="col-md-8"> 
 									<div class="input-group">
 										<span class="input-group-addon"> <i class="glyphicon glyphicon-tint"> </i> </span>
-										<select class="form-control" id="blood"> 
+										<select class="form-control" id="bloodGroup"> 
 											<option disabled> Select Blood Group </option>
 											<option> A+ </option>
 											<option> B+ </option>

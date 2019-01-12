@@ -47,7 +47,7 @@
 				
 				<li> <a data-toggle="tab" href="#notification"> <i class="glyphicon glyphicon-bell"> </i> </a> </li>
 				
-				<li class="navbar-right"> <a data-toggle="tab" href="#logout"> <i class="glyphicon glyphicon-off"> </i> </a> </li>
+				<li class="navbar-right" title="logout"> <a data-toggle="tab" href="#logout"> <i class="glyphicon glyphicon-off"> </i> </a> </li>
 
 			</ul>
 			
@@ -59,17 +59,17 @@
 			
 				<div id="profile" class="tab-pane fade in active"> Hi , Welcome User </div>
 				
-				<div id="additional" class="tab-pane fade "> <iframe src="College Bus Management\src\main\webapp\WEB-INF\views\additionalDetails.jsp" width="100%" height="500" style="border:none"> </iframe> </div>
+				<div id="additional" class="tab-pane fade "> <jsp:include page="/WEB-INF/views/additionalDetails.jsp"></jsp:include> </div>
 				
-				<div id="busTrip" class="tab-pane fade"> <iframe src="College Bus Management\src\main\webapp\WEB-INF\views\tripSelection.jsp" width="100%" height="500" style="border:none"> </iframe>  </div>
+				<div id="busTrip" class="tab-pane fade"> <jsp:include page="/WEB-INF/views/tripSelection.jsp"></jsp:include> </div>
 				
-				<div id="update" class="tab-pane fade"> <iframe src="College Bus Management\src\main\webapp\WEB-INF\views\update.jsp" width="100%" height="500" style="border:none"> </iframe>  </div>
+				<div id="update" class="tab-pane fade"><jsp:include page="/WEB-INF/views/update.jsp"></jsp:include>  </div>
 				 
-				<div id="change" class="tab-pane fade"> <iframe src="College Bus Management\src\main\webapp\WEB-INF\views\passwordChange.jsp" width="100%" height="500" style="border:none"> </iframe>  </div>
+				<div id="change" class="tab-pane fade"> <jsp:include page="/WEB-INF/views/passwordChange.jsp"></jsp:include> </div>
 				
-				<div id="payment" class="tab-pane fade"> <iframe src="College Bus Management\src\main\webapp\WEB-INF\views\challan.jsp" width="100%" height="500" style="border:none"> </iframe>  </div>
+				<div id="payment" class="tab-pane fade"><jsp:include page="/WEB-INF/views/challan.jsp"></jsp:include>  </div>
 				
-				<div id="busId" class="tab-pane fade"> <iframe src="College Bus Management\src\main\webapp\WEB-INF\views\id.jsp" width="100%" height="500" style="border:none"> </iframe>  </div>
+				<div id="busId" class="tab-pane fade"> <jsp:include page="/WEB-INF/views/id.jsp"></jsp:include>  </div>
 				
 				<div id="notification" class="tab-pane fade">  notification </div>
 				
@@ -81,15 +81,15 @@
 			
 		</div>
 		
-		<script>
+		<!-- <script>
 			
 			$(document).ready(function(){
 			
-				alert("hai");
+				alert $(result);
 			});
 			
 		</script>
-			
+			 -->
 			
 		
 	</body>

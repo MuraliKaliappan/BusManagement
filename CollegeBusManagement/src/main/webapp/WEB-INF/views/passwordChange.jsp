@@ -48,22 +48,22 @@
 									</div>
 									
 									<div class="row form-group">
-										<div class="col-md-4"> <label class="control-label" for="pwd"> New Password : </label> </div>
+										<div class="col-md-4"> <label class="control-label" for="newPwd"> New Password : </label> </div>
 										<div class="col-md-8"> 
 											<div class="input-group">
 												<span class="input-group-addon"> <i class="glyphicon glyphicon-lock"> </i> </span>
-												<input type="password" class="form-control" id="pwd" placeholder="New Password" required> 
+												<input type="password" class="form-control" id="newPwd" placeholder="New Password" required> 
 										
 											</div>
 										</div>
 									</div>
 
 									<div class="row form-group">
-										<div class="col-md-4"> <label class="control-label" for="pwd"> Confirm Password : </label> </div>
+										<div class="col-md-4"> <label class="control-label" for="confirm"> Confirm Password : </label> </div>
 										<div class="col-md-8"> 
 											<div class="input-group">
 												<span class="input-group-addon"> <i class="glyphicon glyphicon-link"> </i> </span>
-												<input type="password" placeholder="Confirm Password" class="form-control" id="confirmPwd" required> 
+												<input type="password" placeholder="Confirm Password" class="form-control" id="confirm" required> 
 										
 											</div>
 										</div>
